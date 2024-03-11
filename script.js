@@ -51,7 +51,7 @@ btnNew.addEventListener('click', function () {
     current1.textContent = 0;
     currentScore = 0;
     switchPlayer();
-    activePlayer = false;
+    activePlayer = !activePlayer;
     dice.classList.add('hidden');
     });
 
